@@ -1,0 +1,13 @@
+Source: ndrive
+Section: contrib/python
+Priority: extra
+Maintainer: nuxeo-drive <2.5.4>
+Build-Depends: debhelper (>= 9), python, dh-virtualenv, python-all-dev, python-qt4, python-pip, python-dev, libffi-dev, python-xattr
+Standards-Version: 3.9.5
+
+Package: ndrive
+Architecture: any
+Pre-Depends: dpkg (>= 1.16.1), python2.7-minimal | python2.6-minimal
+Depends: python-qt4, python-pip, python-dev, libffi-dev, python-xattr
+Description: nuxeo drive build with docker
+ nuxeo drive build with docker

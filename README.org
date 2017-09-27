@@ -1,0 +1,7 @@
+* Build
+
+#+BEGIN_SRC sh
+make deb
+#+END_SRC
+
+it puts the build result in ./debian/dist
